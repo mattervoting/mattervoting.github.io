@@ -21,7 +21,7 @@ baseurl: ""
 post_limit: 5
 
 
-title : matterfi
+title : MatterFi
 tagline: 
 author : 
   name : MatterFi
@@ -85,7 +85,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : https://matterfi.github.io/assets/themes/bootstrap
+  #ASSET_PATH : https://matterfi.github.io/assets/themes/bootstrap
 
   #assets:
   #  sources:
