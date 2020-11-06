@@ -410,16 +410,14 @@ canonical: https://heliumjk.github.io
             <div class="contact-info">
               <address>
 							<i class="fa fa-map-marker icons cyan-color contact-info-icon"></i>
-							Level 13, 2 Elizabeth St, Melbourne,
+							{{ site.contact_info.address_ln1 }}
 							<br>
-							Victoria 3000, Australia
+							{{ site.contact_info.address_ln2 }}
 						</address>
               <div class="tel-info">
-                <a href="tel:1800452308"><i class="fa fa-mobile icons cyan-color contact-info-icon"></i>1800 452 308</a>
-                <a href="tel:+61(8)82343555"><i class="fa fa-phone icons cyan-color contact-info-icon"></i>+61 (8) 8234 3555</a>
+                <i class="fa fa-mobile icons cyan-color contact-info-icon"></i>{{ site.contact_info.phone }}
               </div>
-              <a href="mailto:lantoniotrento@gmail.com"><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>lantoniotrento@gmail.com</a>
-              <a href="https://antoniotrento.github.io"><i class="fa fa-tablet icons cyan-color contact-info-icon"></i>https://antoniotrento.github.io</a>
+              <a href='mailto:email@email.com'><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>{{ site.contact_info.email }}</a>
               {% include social-block.html %}
             </div>
           </div>

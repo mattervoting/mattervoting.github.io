@@ -1,9 +1,9 @@
             <div class="top-menu">
               <p>
                 <span class="left">
-                  <a href="#"><i class="fa fa-map-marker"></i>New South Wales, Sydney</a>
-                  <a href="#"><i class="fa fa-mobile-phone"></i>+9 34476 3244</a>
-                  <a href="#"><i class="fa fa-envelope"></i>email@example.com</a>
+                  <a href="#"><i class="fa fa-map-marker"></i>{{ site.contact_info.address_ln1 }} {{ site.contact_info.address_ln2 }}</a>
+                  <a href="#"><i class="fa fa-mobile-phone"></i>{{ site.contact_info.phone }}</a>
+                  <a href="#"><i class="fa fa-envelope"></i>{{ site.contact_info.email }}</a>
               	</span>
                 <span class="right hidden-sm-down">                          
                   {% if site.author.facebook %}<a href="https://www.facebook.com/{{ site.author.facebook }}/"><i class="fa fa-facebook"></i></a>{% endif %}

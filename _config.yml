@@ -30,7 +30,7 @@ author:
   site: https://github.com/matterfi
   description: Crypto Wallets.
   image: social-image.png
-  email: 'lantoniotrento@gmail.com'
+  email: 'author@gmail.com'
   github: matterfi
   twitter: null
   facebook: null
@@ -38,6 +38,15 @@ author:
   instagram: null
   pinterest: null
   feedburner: null
+
+# Contact information in one place:
+# {{ site.contact_info.<item> }}
+contact_info:
+  address_ln1: 30 N Gould St, Ste 400
+  address_ln2: Sheridan, WY 82801
+  phone: Phone#
+  email: email@email.com
+
 
 twitter_username: null
 # The production_url is only used when full-domain names are needed
