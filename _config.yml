@@ -26,12 +26,12 @@ post_limit: 5
 title: MatterFi
 tagline: 'Currency with a Material Feel.'
 author: matterfi
-  name: MatterFi
+  name: 'MatterFi'
   site: https://github.com/matterfi
   description: 'Crypto Wallets.'
   image: social-image.png
-  email: lantoniotrento@gmail.com
-  github: matterfi
+  email: 'lantoniotrento@gmail.com'
+  github: 'matterfi'
   twitter: 'null'
   facebook: 'null'
   linkedin: 'null'
