@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 # Trouble Shooting:
 # https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/troubleshooting-jekyll-build-errors-for-github-pages-sites#config-file-error
-permalink: "/:categories/:year/:month/:day/:title"
+permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: null
@@ -24,22 +24,22 @@ post_limit: 5
 
 
 title: MatterFi
-tagline: 'Currency with a Material Feel.'
-author: matterfi
+tagline: Currency with a Material Feel.
+author:
   name: Matter Fi
   site: https://github.com/matterfi
-  description: 'Crypto Wallets.'
+  description: Crypto Wallets.
   image: social-image.png
   email: 'lantoniotrento@gmail.com'
-  github: 'matterfi'
-  twitter: 'null'
-  facebook: 'null'
-  linkedin: 'null'
-  instagram: 'null'
-  pinterest: 'null'
-  feedburner: 'null'
+  github: matterfi
+  twitter: null
+  facebook: null
+  linkedin: null
+  instagram: null
+  pinterest: null
+  feedburner: null
 
-twitter_username: 'null'
+twitter_username: null
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
