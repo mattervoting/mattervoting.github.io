@@ -22,8 +22,8 @@ post_limit: 5
 
 
 title : MatterFi
-tagline: 
-author : 
+tagline: Currency with a Material Feel.
+author : matterfi
   name : MatterFi
   site: https://github.com/matterfi
   description : Crypto Wallets.
@@ -46,7 +46,7 @@ twitter_username:
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://matterfi.github.io
+production_url : matterfi.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
