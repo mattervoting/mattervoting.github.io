@@ -30,14 +30,14 @@ author: matterfi
   image: social-image.png
   email: lantoniotrento@gmail.com
   github: matterfi
-  twitter: 
-  facebook: 
-  linkedin: 
-  instagram: 
-  pinterest: 
-  feedburner: 
+  twitter: 'null'
+  facebook: 'null'
+  linkedin: 'null'
+  instagram: 'null'
+  pinterest: 'null'
+  feedburner: 'null'
 
-twitter_username: 
+twitter_username: 'null'
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
