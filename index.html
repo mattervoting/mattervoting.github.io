@@ -261,16 +261,22 @@ canonical: https://heliumjk.github.io
       <div class="mb-60"></div>
 	
       <!-- Team Members Display -->	
+      <style>
+        .team-portrait {
+            height: 300px;
+            width: 300px;
+        }
+      </style>
       <div class="container">	                  
             <div class="team-members-tow mtb-50">
               <div class="sub-title">
                 <span>Team Members</span>
               </div>
               <div class="row">
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                   <!-- Team Item Starts -->
                   <figure>
-                    <img src="{{ BASE_PATH }}/assets/images/team/team-01.jpg" alt="">
+                    <img class="team-portrait" src="{{ BASE_PATH }}/assets/images/team/team-01.jpg" alt="">
                     <div class="image-overlay">
                       <div class="overlay-text text-center">
                         <div class="info-text">
@@ -288,10 +294,10 @@ canonical: https://heliumjk.github.io
                   </figure>
                   <!-- Team Item Ends -->
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                   <!-- Team Item Starts -->
                   <figure>
-                    <img src="{{ BASE_PATH }}/assets/images/team/team-02.jpg" alt="">
+                    <img class="team-portrait" src="{{ BASE_PATH }}/assets/images/team/team-02.jpg" alt="">
                     <div class="image-overlay">
                       <div class="overlay-text text-center">
                         <div class="info-text">
@@ -310,10 +316,10 @@ canonical: https://heliumjk.github.io
                   <!-- Team Item Ends -->
                 </div>
 
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                   <!-- Team Item Starts -->
                   <figure>
-                    <img src="{{ BASE_PATH }}/assets/images/team/team-03.jpg" alt="">
+                    <img class="team-portrait" src="{{ BASE_PATH }}/assets/images/team/team-03.jpg" alt="">
                     <div class="image-overlay">
                       <div class="overlay-text text-center">
                         <div class="info-text">
@@ -415,11 +421,13 @@ canonical: https://heliumjk.github.io
 							{{ site.contact_info.address_ln1 }}
 							<br>
 							{{ site.contact_info.address_ln2 }}
-						</address>
+            </address>
+              <!--
               <div class="tel-info">
                 <i class="fa fa-mobile icons cyan-color contact-info-icon"></i>{{ site.contact_info.phone }}
               </div>
-              <a href='mailto:email@email.com'><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>{{ site.contact_info.email }}</a>
+              -->
+              <a href='mailto:contact@matterfi.com'><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>{{ site.contact_info.email }}</a>
               {% include social-block.html %}
             </div>
           </div>

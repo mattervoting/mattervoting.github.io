@@ -45,7 +45,7 @@ contact_info:
   address_ln1: 30 N Gould St, Ste 400
   address_ln2: Sheridan, WY 82801
   phone: Phone#
-  email: email@email.com
+  email: contact@matterfi.com
 
 
 # Team information"
@@ -58,6 +58,7 @@ team:
     twitter: null
     instagram: null
     facebook: null
+    linkedin: https://www.linkedin.com/in/timrocho/
   member_02:
     name: Mehow Powers
     title: CIO
@@ -66,6 +67,7 @@ team:
     twitter: null
     instagram: null
     facebook: null 
+    linkedin: https://www.linkedin.com/in/michal-mehow-pospieszalski-1b3b4443/
   member_03:
     name: Chris Odom
     title: Technology Founder
@@ -73,7 +75,8 @@ team:
     background: .
     twitter: null
     instagram: null
-    facebook: null 
+    facebook: null
+    linkedin: https://www.linkedin.com/in/chris-odom-257236/
 
 
 twitter_username: null
