@@ -48,6 +48,34 @@ contact_info:
   email: email@email.com
 
 
+# Team information"
+team:
+  member_01:
+    name: Tim Rocho
+    title: CEO
+    catchphrase: .
+    background: .
+    twitter: null
+    instagram: null
+    facebook: null
+  member_02:
+    name: Mehow Powers
+    title: CIO
+    catchphrase: .
+    background: .
+    twitter: null
+    instagram: null
+    facebook: null 
+  member_03:
+    name: Chris Odom
+    title: Technology Founder
+    catchphrase: .
+    background: .
+    twitter: null
+    instagram: null
+    facebook: null 
+
+
 twitter_username: null
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
