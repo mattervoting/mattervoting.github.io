@@ -53,9 +53,9 @@ counts:
   downloads: 561
   # (unix: git ls-files | xargs wc -l)
   # (windows powershell: dir -Recurse -Include *.ts,*.tsx -Exclude *node_modules* | Get-Content | Measure-Object -Line)
-  code_lines: 459861
+  code_lines: 459,861
   # https://github.com/Open-Transactions/opentxs
-  commits: 5844
+  commits: 5,844
   # https://github.com/Open-Transactions/opentxs/graphs/contributors
   contributors: 29
 
