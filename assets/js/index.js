@@ -3,5 +3,4 @@ $('.timer').countTo({
   formatter: function(value, options) {
     return value.toFixed(options.decimals);
   },
-});  
-  
+});
