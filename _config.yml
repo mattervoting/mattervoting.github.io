@@ -48,6 +48,18 @@ contact_info:
   email: contact@matterfi.com
 
 
+# Counts
+counts:
+  downloads: 561
+  # (unix: git ls-files | xargs wc -l)
+  # (windows powershell: dir -Recurse -Include *.ts,*.tsx -Exclude *node_modules* | Get-Content | Measure-Object -Line)
+  code_lines: 459861
+  # https://github.com/Open-Transactions/opentxs
+  commits: 5844
+  # https://github.com/Open-Transactions/opentxs/graphs/contributors
+  contributors: 29
+
+
 # Team information"
 team:
   member_01:
