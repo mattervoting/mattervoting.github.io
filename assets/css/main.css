@@ -897,7 +897,9 @@ footer .menu li a:hover{
 }
 .navbar-logo{
   width:80px;
-  height:80px
+  height:80px;
+  padding: 0px;
+  margin: 0px;
 }
 .navbar-brand img{
     max-width:200px
@@ -917,7 +919,8 @@ footer .menu li a:hover{
     text-align:center
 }
 .navbar{
-    padding:0
+    padding:0;
+    max-height: 80px;
 }
 .dropdown-menu{
     padding:10px 0px;
