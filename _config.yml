@@ -196,3 +196,8 @@ JB:
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+
+
+  # Press Release posts are located in the _posts directory and are markdown style.
+  # Read more about formatting here:
+  # https://heliumjk.github.io/docs/2017/10/08/helium-jekyll-theme-markdown-examples
