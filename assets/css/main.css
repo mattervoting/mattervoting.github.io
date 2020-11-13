@@ -271,7 +271,8 @@ strong{
     padding-top:80px
 }
 .hero-content-v2{
-    margin-top:144px
+    margin-top:144px;
+    text-align: center;
 }
 .hero-content-v2 h3{
     font-size:24px;
@@ -2236,7 +2237,7 @@ nav#menu span.fa.fa-bars:hover{
     z-index:2
 }
 #carousel-area .carousel-item .carousel-caption{
-    top:28%;
+    top:22%;
     right:10%;
     left:10%;
     text-shadow:none
