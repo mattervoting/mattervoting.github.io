@@ -370,12 +370,10 @@ keywords: helium, jekyll, bootstrap, UI, kit
                 <div class="help-block with-errors"></div>
               </div></div>
               <!-- Message -->
-              <div class="col-sm-12">
-                <div class="form-group">
-                  <textarea autocomplete="off" name="message" id="message" rows="8" placeholder="Message" required data-error="Please enter your message"></textarea>
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+              <div class="col-sm-12"><div class="form-group">
+                <textarea autocomplete="off" name="message" id="message" rows="8" placeholder="Message" required data-error="Please enter your message"></textarea>
+                <div class="help-block with-errors"></div>
+              </div></div>
             </div>
             <!-- Submit Button -->
             <input name="submit_but" type="submit" id="form-submit" class="btn btn-common btn-form-submit" onclick="submit_form();" value="Send Message" />
@@ -390,11 +388,12 @@ keywords: helium, jekyll, bootstrap, UI, kit
 
         function submit_form() {
           alert("Thank you for getting in touch. Be sure to check for a contact notification email.");
-          document.submit_but.disabled = true;
-          document.submit_but.value = "Received"
-          document.contact.hidden = true;
-          document.contact.submit();
-          document.contact.reset();
+          document.getElementById('submit_but').disabled = true;
+          document.getElementById('submit_but').value = "Received"
+          document.getElementById('message').value = "";
+          document.getElementById('contact').hidden = true;
+          document.getElementById('contact').submit();
+          document.getElementById('contact').reset();
           return false;
         }
       </script> 
