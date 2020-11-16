@@ -20,8 +20,6 @@ data-ad-slot: 2973388149
 data-ad-client: ca-pub-9204963049240271
 google_ad_client: ca-pub-9204963049240271
 
-post_limit: 5
-
 
 title: MatterFi
 tagline: Currency with a Material Feel.
@@ -39,7 +37,8 @@ author:
   pinterest: null
   feedburner: null
 
-# Contact information in one place:
+
+# Company Contact Information in one place:
 # {{ site.contact_info.<item> }}
 contact_info:
   address_ln1: 30 N Gould St, Ste 400
@@ -60,7 +59,7 @@ counts:
   contributors: 29
 
 
-# Team information"
+# Team Information
 team:
   member_01:
     name: Tim Rocho
@@ -91,7 +90,6 @@ team:
     linkedin: https://www.linkedin.com/in/chris-odom-257236/
 
 
-twitter_username: null
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
@@ -147,32 +145,6 @@ JB:
   #  sources:
   #    /assets
 
-  # These paths are to the main pages Jekyll-Bootstrap ships with.
-  # Some JB helpers refer to these paths; change them here if needed.
-  #
-  archive_path: /archive.html
-  categories_path: /categories.html
-  tags_path: /tags.html
-  atom_path: /atom.xml
-  rss_path: /rss.xml
-
-  # Settings for comments helper
-  # Set 'provider' to the comment provider you want to use.
-  # Set 'provider' to false to turn commenting off globally.
-  #
-  comments:
-    provider: disqus
-    disqus: 
-      short_name: jeky-new-age
-    #livefyre :
-    #  site_id : 
-    #intensedebate :
-    #  account : 
-    #facebook :
-    #  appid :
-      num_posts: 5
-      width: 580
-      colorscheme: light
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -180,15 +152,19 @@ JB:
   #
   analytics:
     provider: google
+
     google:
-        tracking_id: 'UA-94080000-1'
-    getclicky:
-      site_id:
-    mixpanel:
-        token: '_MIXPANEL_TOKEN_'
-    piwik:
-        baseURL: 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite: '1'                   # the id of the site on Piwik
+      tracking_id: 'UA-94080000-1'
+
+  #  getclicky:
+  #    site_id:
+
+  #  mixpanel:
+  #    token: '_MIXPANEL_TOKEN_'
+
+  #  piwik:
+  #    baseURL: 'myserver.tld/piwik' # Piwik installation address (without protocol)
+  #    idsite: '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper.
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
