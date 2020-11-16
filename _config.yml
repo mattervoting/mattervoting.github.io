@@ -65,8 +65,8 @@ team:
   member_01:
     name: Tim Rocho
     title: CEO
-    catchphrase: .
-    background: .
+    catchphrase: 'catch phrase'
+    background: 'back ground'
     twitter: null
     instagram: null
     facebook: null
@@ -74,8 +74,8 @@ team:
   member_02:
     name: Mehow Powers
     title: CIO
-    catchphrase: .
-    background: .
+    catchphrase: 'catch phrase'
+    background: 'back ground'
     twitter: null
     instagram: null
     facebook: null 
@@ -83,8 +83,8 @@ team:
   member_03:
     name: Chris Odom
     title: Technology Founder
-    catchphrase: .
-    background: .
+    catchphrase: 'catch phrase'
+    background: 'back ground'
     twitter: null
     instagram: null
     facebook: null
