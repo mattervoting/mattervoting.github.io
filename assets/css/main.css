@@ -919,12 +919,22 @@ footer .menu li a:hover{
     -moz-border-radius:5px
 }
 .navbar-collapse{
-    text-align:center;
+    text-align: center;
+    z-index: 1000000;
+    -webkit-box-pack:end!important;
+    -webkit-justify-content:flex-end!important;
+    -ms-flex-pack:end!important;
+    justify-content:flex-end!important
 }
-
+.navbar-home-link {
+    color: #5d8eb8;
+    margin-left: -20px;
+    padding-top: 5px;
+}
 .navbar{
     padding:0;
     max-height: 80px;
+    background-color: white;
 }
 .dropdown-menu{
     padding:10px 0px;
@@ -1630,7 +1640,7 @@ nav#menu span.fa.fa-bars:hover{
     line-height:32px
 }
 .single-testimonial-area{
-    background-image:url(/assets/images/about/testimonial-bg.jpg);
+    background-image:url(/assets/images/bg/testimonial-bg.jpg);
     background-size:cover;
     padding:60px 0
 }
@@ -2075,7 +2085,7 @@ nav#menu span.fa.fa-bars:hover{
     position:relative
 }
 #counter{
-    background-image:url(/assets/images/about/testimonial-bg.jpg);
+    background-image:url(/assets/images/bg/testimonial-bg.jpg);
     background-size:cover;
     padding:60px 0
 }
