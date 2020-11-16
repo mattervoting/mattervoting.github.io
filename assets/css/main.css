@@ -418,7 +418,8 @@ footer #copyright .copyright-text,footer #copyright .nav-inline{
 }
 .footer-logo{
     height:100;
-    width:auto
+    width:auto;
+    max-width: 60%;
 }
 .light-footer{
     background:#f7f7f7
@@ -907,7 +908,7 @@ footer .menu li a:hover{
     max-width:200px
 }
 .navbar-light .navbar-brand,.navbar-light .navbar-toggler{
-    color:#EB586F !important
+    color:#5d8eb8 !important
 }
 .navbar-toggle .icon-bar{
     background:#EB586F;
@@ -918,8 +919,9 @@ footer .menu li a:hover{
     -moz-border-radius:5px
 }
 .navbar-collapse{
-    text-align:center
+    text-align:center;
 }
+
 .navbar{
     padding:0;
     max-height: 80px;
@@ -3409,7 +3411,10 @@ ul.nav-tabs li a{
     }
     .navbar-light .navbar-toggler{
         margin:24px;
-        border:0
+        border:0;
+        background-color: white;
+        z-index: 1000000;
+        position: absolute;
     }
     .press-item-wrapper{
         margin-bottom:30px

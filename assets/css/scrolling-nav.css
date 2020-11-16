@@ -20,6 +20,8 @@ html {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: white;
+        z-index:1000000;
     }
 
     .top-nav-collapse {

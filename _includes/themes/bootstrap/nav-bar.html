@@ -18,14 +18,62 @@
 
             <!-- navbar-default -->
             <style>
+              .navbar{
+                background-color: white;
+              }
               .navbar-home-link {
                 color: #5d8eb8;
                 margin-left: -20px;
                 padding-top: 5px;
               }
+              .navbar-collapse {
+                text-align: center;
+                z-index: 1000000;
+                -webkit-box-pack:end!important;
+                -webkit-justify-content:flex-end!important;
+                -ms-flex-pack:end!important;
+                justify-content:flex-end!important
+              }
+              .navbar-homelink{
+                position:relative;
+                margin-left:auto;
+                margin-right:auto;
+                padding-right:15px;
+                padding-left:15px;
+                align-content: space-between;
+              }
+              @media (max-width:768px){
+                .navbar-nav{
+                  text-align: center;
+                }
+                .navbar-logo{
+                  width:auto;
+                  max-height: 50px;
+                  padding: 0px;
+                  margin: 0px;
+                }
+                .nav-item {
+                  background-color: white;
+                  border: 2px solid #5d8eb8;
+                  border-radius: 5%;
+                  z-index: 1000000;
+                  text-align: center;
+                }
+                .navbar-toggler{
+                  margin:20px;
+                  right: 10px;
+                  border: 0;
+                  z-index: 1000000;
+                  position: relative;
+                }
+                .navbar-media{
+                  display: inline-block;
+                  width: 100%;
+                }
+              }
             </style>
             <nav class="navbar navbar-toggleable-sm navbar-light bg-default">
-              <div class="container">
+              <div class="container navbar-media">
                 <a class="navbar-brand" href="/"><img class="navbar-logo" src="{{ BASE_PATH }}/assets/images/logo.png" alt=""></a>
                 <!--{% if page.url == '/press' %}  {% endif %}-->
                 <a class="navbar-home-link" href="/">MatterFi</a>
@@ -33,22 +81,26 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="fa fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar1">
-                  <ul class="navbar-nav">
-                    {% assign pages_list = site.pages %}
-                    {% assign group = 'navigation' %}
-                    {% include JB/pages_list %}
-                    <!--
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown link</a>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    -->
-                  </ul>
-                </div>
+              </div>
+
+              <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav">
+                  {% assign pages_list = site.pages %}
+                  {% assign group = 'navigation' %}
+                  {% include JB/pages_list %}
+                </ul>
+              </div>
+
+                <!--
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown link</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                -->
+
               </div>
             </nav>
