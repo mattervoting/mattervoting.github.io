@@ -421,14 +421,15 @@ canonical: https://heliumjk.github.io
                 </div>
               </div>
             </div>
-            <input type="submit" id="form-submit" class="btn btn-common btn-form-submit" onclick="submit_form();" value="Send Message" />
+            <input name="submit_but" type="submit" id="form-submit" class="btn btn-common btn-form-submit" onclick="submit_form();" value="Send Message" />
           </div>
         </form>
       </div>
       <script>
         function submit_form() {
           alert("Thank you for getting in touch. Be sure to check for a contact notification email.");
-          document.contact.disabled = true;
+          document.submit_but.disabled = true;
+          document.submit_but.value = "Received"
           document.formfields.hidden = true;
           document.contact.submit();
           document.contact.reset();
