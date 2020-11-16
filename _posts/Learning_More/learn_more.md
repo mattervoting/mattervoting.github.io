@@ -1,4 +1,4 @@
 {% include JB/setup %}
-# Learn More
+# {{ page.title }}
 
 
