@@ -348,7 +348,7 @@ keywords: helium, jekyll, bootstrap, UI, kit
     <div class="row">
       <div class="col-md-8">
         <h3 class="title-head text-center">Get in Touch</h3>
-        <form name="contact" class="contact-form" data-toggle="validator" action="https://formspree.io/f/mleolekp" method="POST">
+        <form name="contact" id="contact" class="contact-form" data-toggle="validator" action="https://formspree.io/f/mleolekp" method="POST">
           <div name="formfields">
             <div class="row">
               <!-- Name -->
@@ -388,13 +388,9 @@ keywords: helium, jekyll, bootstrap, UI, kit
 
         function submit_form() {
           alert("Thank you for getting in touch. Be sure to check for a contact notification email.");
-          document.getElementById('submit_but').disabled = true;
-          document.getElementById('submit_but').value = "Received"
-          document.getElementById('message').value = "";
           document.getElementById('contact').hidden = true;
           document.getElementById('contact').submit();
           document.getElementById('contact').reset();
-          document.forms['contact'].reset();
           return false;
         }
       </script> 
