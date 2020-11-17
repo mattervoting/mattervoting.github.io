@@ -17,6 +17,19 @@ keywords: components, demo
 <div id="content">
   <div class="container">
 
+    <!-- -->
+    <style>
+      .bio-content{
+        color:#000;
+        font-size:12px;
+        font-weight:300;
+        line-height:22px;
+        text-transform: none !important;
+        text-align: justify;
+        padding: 10px;
+      }
+    </style>
+
     <!-- Page Header -->
     <div class="row"><div class="col-md-12">
       <div class="page-header-title">
@@ -37,9 +50,7 @@ keywords: components, demo
                     <p class="content-white">{{ site.team.member_01.catchphrase }}</p>
                     <hr class="small-divider border-white">
                     <div class="social">
-                      <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                      <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                      <a class="google-plus" href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="{{ site.team.member_01.linkedin }}">Linkedin</a>
                     </div>
                   </div>
                 </figcaption>
@@ -67,9 +78,7 @@ keywords: components, demo
                     <p class="content-white">{{ site.team.member_02.catchphrase }}</p>
                     <hr class="small-divider border-white">
                     <div class="social">
-                      <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                      <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                      <a class="google-plus" href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="{{ site.team.member_02.linkedin }}">Linkedin</a>
                     </div>
                   </div>
                 </figcaption>
@@ -82,7 +91,7 @@ keywords: components, demo
                   {{ site.team.member_02.title }}
                 </p>
                 <hr/>
-                <p>{{ site.team.member_02.background }}</p>
+                <p class="bio-content">{{ site.team.member_02.background }}</p>
               </div>
             </div>
           </div>
@@ -97,9 +106,7 @@ keywords: components, demo
                     <p class="content-white">{{ site.team.member_03.catchphrase }}</p>
                     <hr class="small-divider border-white">
                     <div class="social">
-                      <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                      <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                      <a class="google-plus" href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="{{ site.team.member_03.linkedin }}">Linkedin</a>
                     </div>
                   </div>
                 </figcaption>

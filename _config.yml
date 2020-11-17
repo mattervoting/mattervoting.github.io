@@ -64,7 +64,7 @@ team:
   member_01:
     name: Tim Rocho
     title: CEO
-    catchphrase: 'catch phrase'
+    catchphrase: Great Ideas are plentiful, its execution that really Matters.
     background: 'back ground'
     twitter: null
     instagram: null
@@ -73,8 +73,8 @@ team:
   member_02:
     name: Mehow Powers
     title: CIO
-    catchphrase: 'catch phrase'
-    background: 'back ground'
+    catchphrase: "Theft and fraud don’t have to be possible."
+    background: "When I was younger I worked as a consultant hacking voting machines, if you think your elections are secure, do I have news for you. Now I’m building technology that eliminates theft and fraud so that these issues can never happen again."
     twitter: null
     instagram: null
     facebook: null 
@@ -82,7 +82,7 @@ team:
   member_03:
     name: Chris Odom
     title: Technology Founder
-    catchphrase: 'catch phrase'
+    catchphrase: When I wrote Open Transactions in 2010 it was to early, now I know it’s the right time.
     background: 'back ground'
     twitter: null
     instagram: null

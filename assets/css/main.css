@@ -1360,15 +1360,22 @@ nav#menu span.fa.fa-bars:hover{
     -o-transition:all 0.3s ease-in-out 0s
 }
 .team-item figure figcaption .details{
-    position:absolute;
-    top:30%
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: absolute;
+    align-content: center;
+    top:30%;
+    text-align: center;
 }
 .team-item figure figcaption .content-white{
     font-size:13px;
     text-align:center;
     color:#FFF;
-    margin:0 auto;
+    margin:auto auto;
     line-height:18px;
+    min-width: 150px;
     width:65%;
     -webkit-transform:translateY(-50px);
     transform:translateY(-50px);
@@ -1525,9 +1532,9 @@ nav#menu span.fa.fa-bars:hover{
     font-style:italic
 }
 .team-members-tow .overlay-text .small-divider{
-    margin-bottom:30px;
+    margin-bottom:20px;
     border-color:#fff;
-    margin-top:30px;
+    margin-top:20px;
     width:50px
 }
 .team-members-tow .social-icons{
