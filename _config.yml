@@ -65,7 +65,7 @@ team:
     name: Tim Rocho
     title: CEO
     catchphrase: Great Ideas are plentiful, its execution that really Matters.
-    background: 'back ground'
+    background: ''
     twitter: null
     instagram: null
     facebook: null
@@ -83,7 +83,7 @@ team:
     name: Chris Odom
     title: Technology Founder
     catchphrase: When I wrote Open Transactions in 2010 it was to early, now I know it’s the right time.
-    background: 'back ground'
+    background: ''
     twitter: null
     instagram: null
     facebook: null
