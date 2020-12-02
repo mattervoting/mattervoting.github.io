@@ -10,6 +10,16 @@
     {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
     {% if page.canonical %}<link rel="canonical" href="{{ page.canonical }}"/>{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BPS3KCJ4L"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8BPS3KCJ4L');
+    </script>
     
 <!--Fonts CSS-->
     <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/Fonts_CSS/font-awesome.min.css">
