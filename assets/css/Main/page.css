@@ -1,0 +1,24 @@
+.hero-content-v2 {
+    margin-top:144px;
+    text-align: center;
+}
+
+.hero-content-v2 h3 {
+    font-size:24px;
+    color:#2f3542;
+    font-weight:400
+}
+
+.hero-content-v2 h3 strong {
+    display:block;
+    font-size:48px;
+    font-weight:400;
+    line-height:62px;
+    margin-bottom:25px
+}
+
+.hero-content-v2 p {
+    color:#444;
+    font-size:18px;
+    margin-bottom:45px
+}

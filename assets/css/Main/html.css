@@ -14,6 +14,87 @@ h4 { font-size:22px }
 h5 { font-size:18px }
 h6 { font-size:16px }
 
+#headers .navbar{
+    margin-bottom:0
+}
+
+#headers .header-caption{
+    text-align:center;
+    height:auto;
+    text-shadow:none !important;
+    top:0;
+    bottom:0;
+    padding:0
+}
+
+#headers .header-content{
+    padding:90px 0
+}
+
+.header-title .text-primary{
+    color:#EB586F !important
+}
+
+.header-content header-title span{
+    margin-bottom:15px
+}
+
+.header-content .header-text{
+    margin-top:15px;
+    font-size:14px;
+    line-height:30px
+}
+
+.header-content .btn{
+    margin:15px
+}
+
+#header-style-1{
+    background-image:url(/assets/images/bg/hero-1-bg.jpg);
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    background-position:contain
+}
+
+#header-style-1 .header-title{
+    color:#fff
+}
+
+#header-style-1 .header-text{
+    color:#fff;
+    line-height:1.5
+}
+
+#header-style-1 .content{
+    min-height:555px;
+    height:auto
+}
+
+#header-style-1 p.caption{
+    padding:6px;
+    color:#444
+}
+
+.header-style-2{
+    background:#f4f6f9;
+    padding-top:80px
+}
+
+.header-style-3 {
+    background:url(/assets/images/bg/hero-3-bg.jpg) no-repeat left center;
+    background-size:cover;
+    padding-top:80px
+}
+
+.header-style-3 .hero-content-v2 h3 {
+    color:#fff
+}
+
+.header-style-3 .hero-content-v2 p {
+    color:#fff
+}
+
 a {
     color:#EB586F;
     -moz-transition:.2s ease-in;
@@ -130,4 +211,85 @@ strong{
     color:#fff;
     background:#ec7160;
     padding:3px 4px
+}
+
+.wrapper {
+    background:#fff;
+    padding-bottom:0px
+}
+
+.mtb-50 {
+    margin-top:50px;
+    margin-bottom:50px
+}
+
+#content {
+    padding-bottom:60px
+}
+
+.mb-60 {
+    margin-bottom:60px
+}
+
+.space-right {
+    margin-right:25px
+}
+
+.row-spacer {
+    margin-bottom:80px
+}
+
+.page-header-title {
+    padding-top:60px;
+    padding-bottom:60px
+}
+
+.page-header-title .heading-title {
+    color:#444;
+    font-size:36px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    font-weight:400
+}
+
+.section {
+    padding:30px 0
+}
+
+#copyright {
+    background-color:#1d1e20;
+    padding:20px 0 10px;
+    color:#fff
+}
+#copyright p {
+    line-height:34px;
+    color:#999
+}
+#copyright p a {
+    color:#fff
+}
+
+#copyright p a:hover {
+    color:#D14E63
+}
+
+.bg-faded {
+    background-color:transparent
+}
+
+.bg-default {
+    background:#F8F8F8;
+    border:none
+}
+
+.bg-default .navbar-nav .nav-link {
+    color:#444
+}
+
+.bg-black {
+    background-color:#333
+}
+
+.bg-black .navbar-nav .nav-link {
+    color:#fff
 }
