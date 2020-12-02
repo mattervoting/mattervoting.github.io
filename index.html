@@ -114,7 +114,7 @@ keywords: crypto, wallet, investing, app, matterfi
       <div class="col-md-4 col-sm-6">
         <div class="service-box">
           <div class="service-icon">
-            <i class="fa fa-tachometer"></i>
+            <i class="fas fa-tachometer-alt"></i>
           </div>
           <div class="service-content">
             <h4><a href="#">Super Fast</a></h4>
@@ -142,7 +142,7 @@ keywords: crypto, wallet, investing, app, matterfi
       <div class="col-md-4 col-sm-6">
         <div class="service-box">
           <div class="service-icon">
-            <i class="fa fa-flash"></i>
+            <i class="fas fa-bolt"></i>
           </div>
           <div class="service-content">
             <h4><a href="#">On and off-chain.</a></h4>
@@ -156,7 +156,7 @@ keywords: crypto, wallet, investing, app, matterfi
       <div class="col-md-4 col-sm-6">
         <div class="service-box">
           <div class="service-icon">
-            <i class="fa fa-hand-pointer-o"></i>
+            <i class="far fa-hand-point-up"></i>
           </div>
           <div class="service-content">
             <h4><a href="#">Advanced Features</a></h4>
@@ -417,6 +417,18 @@ keywords: crypto, wallet, investing, app, matterfi
           </div>
           -->
           <a href='mailto:contact@matterfi.com'><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>{{ site.contact_info.email }}</a>
+
+          <!--Social Media-->
+          <span class="social">
+            {% if site.company.linkedin %}<a href="https://www.linkedin.com/in/{{ site.company.linkedin }}/"><i class="fab fa-2x fa-linkedin"></i></a>{% endif %}
+            {% if site.company.twitter %}<a href="https://twitter.com/{{ site.company.twitter }}"><i class="fab fa-2x fa-twitter"></i></a>{% endif %}
+            {% if site.company.facebook %}<a href="https://www.facebook.com/{{ site.company.facebook }}/"><i class="fab fa-2x fa-facebook-f"></i></a>{% endif %}
+            {% if site.company.instagram %}<a href="https://www.instagram.com/{{ site.company.instagram }}/"><i class="fab fa-2x fa-instagram"></i></a>{% endif %}
+            {% if site.company.github %}<a href="https://www.instagram.com/{{ site.company.github }}/"><i class="fab fa-2x fa-github"></i></a>{% endif %}
+            {% if site.company.telegram %}<a href="https://www.t.me/{{ site.company.telegram }}/"><i class="fab fa-2x fa-telegram"></i></a>{% endif %}
+            {% if site.company.discord %}<a href="https://www.discord.gg/{{ site.company.discord }}/"><i class="fab fa-2x fa-discord"></i></a>{% endif %}
+          </span>
+
         </div>
       </div>
     <!-- End Contact Form -->

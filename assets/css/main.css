@@ -136,15 +136,6 @@ address i{
 .tel-info{
     margin-bottom:15px
 }
-.social-links li{
-    display:inline-block
-}
-.social-links li a{
-    color:#444;
-    font-size:18px;
-    padding-left:0;
-    margin:10px 20px 0 0
-}
 .form-control{
     color:#444;
     background:#f7f7f7;
@@ -1073,9 +1064,6 @@ ul.nav-tabs li a{
     }
     .nav-link{
         padding:8px 3px
-    }
-    .social-footer a .fa{
-        margin:0px
     }
     .list-title{
         font-size:20px

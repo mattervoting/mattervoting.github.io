@@ -10,19 +10,31 @@ excerpt_separator: "<!--more-->"
 # Site Company
 title: MatterFi
 tagline: Currency with a Material Feel.
-author:
+company:
   name: MatterFi
   site: https://github.com/matterfi
   description: Crypto Wallets.
   image: social-image.png
-  email: 'author@gmail.com'
-  github: matterfi
-  twitter: null
-  facebook: null
-  linkedin: null
-  instagram: null
-  pinterest: null
+  email: 'contact@matterfi.com'
+  # social medias:
+  linkedin:   company/matterfi
+  twitter:    FiMatter
+  facebook:   MatterFi-108207714429114/s
+  instagram:  instagram.com/matterfinance
+  github:     matterfi
+  pinterest:  null
   feedburner: null
+  # Needed custom Icons:
+  telegram:   matterfi
+  discord:    RVGfCbZNmG
+
+# Company Contact Information in one place:
+# {{ site.contact_info.<item> }}
+contact_info:
+  address_ln1: 30 N Gould St, Ste 400
+  address_ln2: Sheridan, WY 82801
+  phone: Phone#
+  email: contact@matterfi.com
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -48,14 +60,6 @@ markdown: kramdown
 data-ad-slot: 2973388149
 data-ad-client: ca-pub-9204963049240271
 google_ad_client: ca-pub-9204963049240271
-
-# Company Contact Information in one place:
-# {{ site.contact_info.<item> }}
-contact_info:
-  address_ln1: 30 N Gould St, Ste 400
-  address_ln2: Sheridan, WY 82801
-  phone: Phone#
-  email: contact@matterfi.com
 
 # Counts
 counts:
