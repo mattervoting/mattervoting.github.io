@@ -154,7 +154,7 @@ JB:
     provider: google
 
     google:
-      tracking_id: 'UA-94080000-1'
+      tracking_id: 'G-8BPS3KCJ4L'
 
   #  getclicky:
   #    site_id:
