@@ -22,11 +22,11 @@ company:
   facebook:   MatterFi-108207714429114/s
   instagram:  instagram.com/matterfinance
   github:     matterfi
-  pinterest:  null
-  feedburner: null
-  # Needed custom Icons:
   telegram:   matterfi
   discord:    RVGfCbZNmG
+  pinterest:  null
+  feedburner: null
+
 
 # Company Contact Information in one place:
 # {{ site.contact_info.<item> }}
