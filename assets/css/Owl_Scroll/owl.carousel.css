@@ -4,6 +4,46 @@
  */
 
 /* clearfix */
+#image-carousel .item {
+  margin:10px
+}
+
+#image-carousel .item img {
+  display:block;
+  width:100%;
+  height:auto
+}
+
+.owl-theme .owl-controls .owl-page span{
+  width:12px !important;
+  height:12px !important;
+  margin:5px !important;
+  background:#EB586F !important
+}
+
+.owl-theme .owl-buttons div{
+  width:40px;
+  height:40px;
+  display:block !important;
+  background:transparent !important;
+  text-align:center;
+  display:inline-block;
+  opacity:1 !important;
+  border-radius:0 !important;
+  transition:all 0.4s ease-in-out;
+  -moz-transition:all 0.4s ease-in-out;
+  -webkit-transition:all 0.4s ease-in-out;
+  -o-transition:all 0.4s ease-in-out
+}
+.owl-theme .owl-buttons div:hover{
+  opacity:0.8 !important
+}
+.owl-theme .owl-buttons div i{
+  color:#fff;
+  font-size:16px;
+  line-height:32px
+}
+
 .owl-carousel .owl-wrapper:after {
 	content: ".";
 	display: block;

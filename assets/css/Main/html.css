@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,700|Montserrat:700");
 
+.text-primary {
+    color:#EB586F !important
+}
+
 h1, h2, h3, h4, h5, h6 {
     color:#444;
     font-family:"Montserrat",sans-serif;
@@ -296,10 +300,12 @@ strong{
     padding:20px 0 10px;
     color:#fff
 }
+
 #copyright p {
     line-height:34px;
     color:#999
 }
+
 #copyright p a {
     color:#fff
 }
@@ -325,9 +331,11 @@ strong{
 .social .fa-facebook:hover {
     color:#3b5998
 }
+
 .social .fa-twitter:hover {
     color:#55acee
 }
+
 .social .fa-instagram:hover {
     color:#fb3958
 }
@@ -340,30 +348,61 @@ strong{
     margin-bottom:20px
 }
 
-#counter{
+#counter {
     background-image:url(/assets/images/bg/testimonial-bg.jpg);
     background-size:cover;
     padding:60px 0
 }
-.count-one{
+
+.count-one {
     text-align:center;
     margin-top:80px;
     margin-bottom:80px
 }
-.count-one .icon{
+
+.count-one .icon {
     margin-bottom:20px;
     display:block
 }
-.count-one .icon i{
+
+.count-one .icon i {
     color:#EB586F;
     font-size:48px
 }
-.count-one .count-value{
+
+.count-one .count-value {
     color:#fff;
     font-size:48px;
     margin-bottom:20px
 }
-.count-one .count-title{
+
+.count-one .count-title {
     color:#fff;
     font-size:14px
+}
+
+.width25-divider {
+    margin:20px auto;
+    width:25px;
+    border-color:#fff
+}
+
+body {
+    color:#444;
+    background:#fff;
+    font-family:"Rubik",sans-serif;
+    font-weight:400;
+    font-size:14px;
+    line-height:20px;
+    letter-spacing:0px
+}
+
+html,body {
+    height:100%;
+    margin:0;
+    overflow-x:hidden
+}
+
+img {
+    width:100%
 }

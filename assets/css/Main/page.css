@@ -5,12 +5,15 @@
 .hero-content-v2 {
     margin-top:144px;
     text-align: center;
+    margin-top:0;
 }
 
 .hero-content-v2 h3 {
     font-size:24px;
     color:#2f3542;
-    font-weight:400
+    font-weight:400;
+    margin-top:0;
+    font-size:22px;
 }
 
 .hero-content-v2 h3 strong {
@@ -18,7 +21,12 @@
     font-size:48px;
     font-weight:400;
     line-height:62px;
-    margin-bottom:25px
+    margin-bottom:25px;
+}
+
+.hero-content-v2 h3 strong{
+    font-size:32px;
+    line-height:38px
 }
 
 .hero-content-v2 p {
@@ -62,4 +70,29 @@
 
 .service-box .service-content h4 a:hover {
     color:#EB586F
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px){
+    .homeSlideTitle {
+        font-size: 32px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Small devices */
+@media (max-width: 480px){
+    .homeSlideTitle {
+        font-size:24px;
+    }
+
+    .hero-content-v2{
+        margin-top:0
+    }
+
+    .hero-content-v2 h3 strong{
+        font-size:32px;
+        line-height:38px
+    }
 }

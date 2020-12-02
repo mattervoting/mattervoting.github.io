@@ -14,3 +14,13 @@
     background:#EB586F;
     color:#fff
 }
+
+.list-style li{
+    margin-bottom:15px;
+    font-size:14px;
+    position:relative
+}
+.list-style li i{
+    margin-right:10px;
+    color:#EB586F
+}
