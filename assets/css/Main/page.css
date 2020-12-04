@@ -1,7 +1,15 @@
-.homeSlideTitle {
+.textTitle {
     color: #EB586F;
     font-size:48px;
     font-weight:bold;
+}
+
+.accentTxt {
+    color: white;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 8px;
 }
 
 .hero-content-v2 {
@@ -100,36 +108,67 @@
 /* ----------------------------------------------------------------------------------------- */
 /* Tablets */
 @media (min-width: 640px) and (max-width: 1024px) {
-    .homeSlideTitle {
+    .textTitle {
         font-size: 32px;
     }
 
     .social-footer a .fa{
         margin:0px
     }
+
+    .service-box .service-content h4{
+        font-size:14px
+    }
 }
 
 /* ----------------------------------------------------------------------------------------- */
 /* Small devices */
 @media (max-width: 640px) {
-    .homeSlideTitle {
+    .textTitle {
         font-size: 32px;
+    }
+
+    .hero-content-v2{
+        margin-top:0;
+        margin-bottom: 30px;
+    }
+
+    .service-box .service-content h4{
+        font-size:14px
     }
 }
 
 /* ----------------------------------------------------------------------------------------- */
 /* Tiny devices */
 @media (max-width: 480px){
-    .homeSlideTitle {
+    .textTitle {
         font-size:24px;
     }
 
     .hero-content-v2{
-        margin-top:0
+        margin-top:0;
+        margin-bottom: 20px;
     }
 
     .hero-content-v2 h3 strong{
         font-size:32px;
         line-height:38px
     }
+
+    .service-box .service-content h4{
+        font-size:14px
+    }
+
+    .home-main-feature-btn {
+        padding-bottom: 6px;
+    }
+
+    .home-counters {
+        max-height: 30%;
+    }
+
+    .home-counter-element h3 {
+        font-size:24px;
+    }
+    
 }

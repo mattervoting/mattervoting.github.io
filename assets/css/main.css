@@ -863,9 +863,6 @@ figure{
     .button-area .btn{
         padding:11px 12px
     }
-    .service-box .service-content h4{
-        font-size:14px
-    }
     
     .sup-desc-wrap .sup-meta-wrap .sup-description{
         display:none
@@ -896,9 +893,6 @@ figure{
     .tab-content .tabbing-content{
         width:100%;
         padding-left:0
-    }
-    .service-box .service-content h4{
-        font-size:14px
     }
     .controls .btn{
         padding:7px 14px;
@@ -941,9 +935,6 @@ figure{
         width:100%;
         margin-top:10px;
         padding-left:0
-    }
-    .service-box .service-content h4{
-        font-size:14px
     }
     .count-one{
         margin-top:40px;
