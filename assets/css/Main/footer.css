@@ -122,3 +122,22 @@ footer .menu li a {
 footer .menu li a:hover {
     color:#D14E63
 }
+
+/* ----------------------------------------------------------------------------------------- */
+/* Small devices */
+@media (max-width: 640px) {
+    .footer-info .pull-right{
+        float:left !important
+    }
+    .footer-widget{
+        margin-bottom:30px
+    }
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Tiny devices */
+@media (max-width: 480px) {
+    footer ul li a{
+        font-size:12px
+    }
+}

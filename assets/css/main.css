@@ -75,181 +75,7 @@
     font-size:30px;
     margin-bottom:30px
 }
-.contact-form .form-control{
-    background:transparent;
-    padding:15px 25px 15px 50px;
-    color:#444
-}
-.contact-form .form-control:focus{
-    border-color:#EB586F
-}
-.contact-form .contact-icon{
-    left:34px;
-    position:absolute;
-    top:16px;
-    color:#444
-}
-.contact-form textarea{
-    height:268px;
-    width:100%;
-    background:transparent;
-    border:1px solid #ddd;
-    padding:18px 18px;
-    color:#444;
-    margin-bottom:35px;
-    resize:vertical
-}
-.contact-form textarea:focus{
-    border-color:#EB586F
-}
-.contact-form .form-group{
-    margin-bottom:0
-}
-.contact-info-title{
-    color:#444;
-    font-size:24px;
-    margin-bottom:25px
-}
-.contact-info a{
-    display:block;
-    font-size:14px;
-    color:#444;
-    margin-bottom:10px;
-    position:relative;
-    font-weight:400
-}
-.contact-info a i{
-    margin-right:10px
-}
-.contact-info address{
-    position:relative;
-    margin-bottom:15px
-}
-address{
-    font-size:14px;
-    color:#444;
-    line-height:1.8
-}
-address i{
-    margin-right:10px
-}
-.tel-info{
-    margin-bottom:15px
-}
-.form-control{
-    color:#444;
-    background:#f7f7f7;
-    font-weight:400;
-    letter-spacing:0px;
-    border:1px solid #ddd;
-    border-radius:0;
-    margin-bottom:30px;
-    padding:10px 20px;
-    min-height:50px;
-    -webkit-box-shadow:none;
-    box-shadow:none;
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    appearance:none
-}
-.form-control:focus{
-    border-color:#EB586F
-}
-.form-group input{
-    font:normal normal normal 14px/1 FontAwesome,"Rubik",sans-serif
-}
-.input-group input{
-    font:normal normal normal 14px/1 FontAwesome,"Rubik",sans-serif
-}
-#contactForm .form-control{
-    color:#444;
-    background:#f7f7f7;
-    font-weight:400;
-    letter-spacing:0px;
-    border:1px solid #ddd;
-    border-radius:0;
-    margin-bottom:30px;
-    padding:10px 20px;
-    min-height:50px;
-    -webkit-box-shadow:none;
-    box-shadow:none;
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    appearance:none
-}
-#contactForm .form-control:focus{
-    border-color:#EB586F
-}
-#contactForm textarea{
-    max-width:100%;
-    min-height:130px !important;
-    max-height:211px;
-    margin-bottom:30px
-}
-::-webkit-input-placeholder{
-    color:#ccc !important
-}
-:-moz-placeholder{
-    color:#ccc !important
-}
-::-moz-placeholder{
-    color:#ccc !important
-}
-:-ms-input-placeholder{
-    color:#ccc !important
-}
-.has-error .form-control{
-    color:#ec7160 !important;
-    border:1px solid #ec7160 !important
-}
-.help-block.with-errors li{
-    color:#ec7160;
-    font-size:13px;
-    margin-top:-30px;
-    margin-bottom:0
-}
-#msgSubmit.h3{
-    font-size:14px;
-    margin-top:5px
-}
-#contact-form-1 .form-group{
-    margin-bottom:0
-}
-#contact-form-1 #contactForm{
-    width:100%;
-    margin-left:auto;
-    margin-right:auto
-}
-#contact-form-1 .btn-form-submit{
-    width:100%;
-    border-radius:0;
-    padding:14px 24px
-}
-.contact-form-2{
-    margin-bottom:50px
-}
-#contactForm.contact-form-2 .form-control#name{
-    width:70%
-}
-#contactForm.contact-form-2 .form-control#email{
-    width:70%
-}
-#contactForm.contact-form-2 .form-control#subject{
-    width:70%
-}
-#contact-form-2 .form-group{
-    margin-bottom:0
-}
-#contact-form-2 #contactForm{
-    width:100%;
-    margin-left:auto;
-    margin-right:auto
-}
-#contact-form-2 .btn-form-submit{
-    width:30%;
-    border-radius:0;
-    padding:14px 24px
-}
+
 #login-form{
     width:100%;
     background:#fff;
@@ -934,51 +760,7 @@ figure{
 .table-striped>tbody>tr:nth-of-type(2n+1){
     background-color:#e3e3e3
 }
-#default-tab ul.nav-tabs{
-    border-bottom:none;
-    padding-bottom:5px
-}
-#default-tab ul.nav-tabs a{
-    border:0
-}
-ul.nav-tabs li{
-    float:left;
-    margin-top:0
-}
-ul.nav-tabs li a{
-    color:#444;
-    font-size:16px;
-    font-weight:400;
-    line-height:18px;
-    padding:10px 15px;
-    text-transform:uppercase
-}
-#default-tab .nav-tabs>li>a.active,#default-tab .nav-tabs>li a.active:focus,#default-tab .nav-tabs>li a.active:hover{
-    border:0 none;
-    position:relative;
-    color:#EB586F
-}
-.nav-bg>li>a{
-    color:#444;
-    text-transform:uppercase;
-    border:1px solid transparent;
-    margin-right:10px
-}
-.nav-bg>li>a.active,.nav-bg>li a.active:focus,.nav-bg>li a:hover{
-    color:#EB586F !important;
-    border:1px solid #EB586F !important;
-    border-radius:0
-}
-.nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{
-    color:#EB586F
-}
-.nav-tabs{
-    border-bottom:none
-}
-.nav-tabs .nav-link{
-    border-top-right-radius:0px;
-    border-top-left-radius:0px
-}
+
 .tab-content{
     padding:15px;
     border:1px solid #ddd
@@ -1062,9 +844,7 @@ ul.nav-tabs li a{
     footer #copyright .copyright-text,footer #copyright .nav-inline{
         line-height:24px
     }
-    .nav-link{
-        padding:8px 3px
-    }
+    
     .list-title{
         font-size:20px
     }
@@ -1079,12 +859,6 @@ ul.nav-tabs li a{
     }
     .bs-example .nav>li>a{
         padding:10px 19px
-    }
-    .pricing-table-block .plan-list li{
-        font-size:12px
-    }
-    .pricing-table .table-header h3{
-        font-size:15px
     }
     .button-area .btn{
         padding:11px 12px
@@ -1105,18 +879,7 @@ ul.nav-tabs li a{
         font-size:24px
     }
     
-    .contact-form{
-        margin-bottom:30px
-    }
-    .contact-info{
-        margin-bottom:30px
-    }
-    .footer-info .pull-right{
-        float:left !important
-    }
-    .footer-widget{
-        margin-bottom:30px
-    }
+    
     
     .store-btn-wrap li{
         margin-bottom:20px
@@ -1133,12 +896,6 @@ ul.nav-tabs li a{
     .tab-content .tabbing-content{
         width:100%;
         padding-left:0
-    }
-    .pricing-table{
-        margin-bottom:30px
-    }
-    .pricing-table-block{
-        margin-bottom:30px
     }
     .service-box .service-content h4{
         font-size:14px
@@ -1166,18 +923,8 @@ ul.nav-tabs li a{
     .about{
         margin-bottom:30px
     }
-    .contact-form{
-        margin-bottom:30px
-    }
-    .contact-info{
-        margin-bottom:30px
-    }
-    .contact-info-title{
-        font-size:18px
-    }
-    footer ul li a{
-        font-size:12px
-    }
+    
+    
     header h3{
         font-size:18px
     }
@@ -1195,12 +942,6 @@ ul.nav-tabs li a{
         margin-top:10px;
         padding-left:0
     }
-    .pricing-table{
-        margin-bottom:30px
-    }
-    .pricing-table-block{
-        margin-bottom:30px
-    }
     .service-box .service-content h4{
         font-size:14px
     }
@@ -1210,21 +951,6 @@ ul.nav-tabs li a{
     }
     .carousel-inner{
         height:175px
-    }
-    #carousel-area .carousel-item .carousel-caption{
-        top:2%
-    }
-    #carousel-area .carousel-item .carousel-caption h3{
-        font-size:14px
-    }
-    #carousel-area .carousel-item .carousel-caption h5{
-        margin-bottom:3px;
-        font-size:12px;
-        line-height:15px
-    }
-    #carousel-area .carousel-item .btn-lg{
-        padding:7px 10px;
-        min-width:150px
     }
     .carousel-indicators{
         display:none
