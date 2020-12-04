@@ -12,14 +12,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    {% if site.analytics.google.tracking_id %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', '{{ site.analytics.google.tracking_id }}');
-    </script>
+            gtag('config', '{{ site.analytics.google.tracking_id }}');
+        </script>
+    {% endif %}
+
+<!-- Google ADS mobile block-->
+    {% if site.google_ad_client %}
+        <script type="text/javascript" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script type="text/javascript">
+            (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "{{ site.google_ad_client }}",
+                enable_page_level_ads: true
+            });
+        </script>
+    {% endif %}
     
 <!--Fonts CSS-->
     <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/FontAwsome/all.css">
@@ -71,16 +84,6 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
     
-    <!-- Google ADS mobile block-->
-    {% if site.google_ad_client %}
-        <script type="text/javascript" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script type="text/javascript">
-            (adsbygoogle = window.adsbygoogle || []).push({
-                google_ad_client: "{{ site.google_ad_client }}",
-                enable_page_level_ads: true
-            });
-        </script>
-    {% endif %}
   </head>
 
   <body>

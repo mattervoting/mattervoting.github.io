@@ -1,3 +1,30 @@
+.team-portrait {
+    height: 100%;
+    width: 100%;
+}
+
+.team-members-tow figure:hover .image-overlay {
+    opacity:1
+}
+
+.team-members-tow .image-overlay {
+    height:100%;
+    position:absolute;
+    top:0;
+    background:rgba(0,0,0,0.85);
+    opacity:0;
+    width:100%;
+    transition:all 0.3s ease-in-out 0s;
+    -moz-transition:all 0.3s ease-in-out 0s;
+    -webkit-transition:all 0.3s ease-in-out 0s;
+    -o-transition:all 0.3s ease-in-out 0s
+}
+
+.team-link {
+    color: #5d8eb8;
+    text-align: center;
+}
+
 .team-item figure {
     position:relative;
     overflow:hidden;
@@ -159,10 +186,6 @@
     cursor:pointer
 }
 
-.team-members-tow figure:hover .image-overlay {
-    opacity:1
-}
-
 .team-members-tow figure:hover .info-text {
     -webkit-transform:translateY(0px);
     transform:translateY(0px)
@@ -173,18 +196,6 @@
     transform:translateY(0px)
 }
 
-.team-members-tow .image-overlay {
-    height:100%;
-    position:absolute;
-    top:0;
-    background:rgba(0,0,0,0.85);
-    opacity:0;
-    width:100%;
-    transition:all 0.3s ease-in-out 0s;
-    -moz-transition:all 0.3s ease-in-out 0s;
-    -webkit-transition:all 0.3s ease-in-out 0s;
-    -o-transition:all 0.3s ease-in-out 0s
-}
 
 .team-members-tow .overlay-text {
     color:#ffffff;
