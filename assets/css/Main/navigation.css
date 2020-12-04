@@ -431,6 +431,13 @@ ul.nav-tabs li a{
     margin: 0px;
 }
 
+.homeSlideTxt {
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
 /* ----------------------------------------------------------------------------------------- */
 /* Med devices */
 @media (max-width: 800px) {
