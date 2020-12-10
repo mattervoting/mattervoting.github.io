@@ -15,13 +15,13 @@
     <title>{{ page.title }}</title>
     <link rel='canonical' href="https://matterfi.com" />
     {% if page.tagline %}<meta name="description" content="{{ page.tagline }}">{% endif %}
-    <link rel='manifest' href='/web-manifest.json'>
+    <link rel='manifest' href='{{ BASE_PATH }}/web-manifest.json'>
     <meta name='theme-color' content='#ff00ff'>
     <!-- Icons -->
-    <link rel='icon' type='image/png' href='/assets/images/icons/32.png'>
-    <link rel='icon' sizes='192x192' href='/assets/images/icons/192.png'>
-    <link rel='apple-touch-icon' href='/assets/images/icons/152.png'>
-    <meta name='msapplication-square310x310logo' content='/assets/images/icons/310.png'>
+    <link rel='icon' type='image/png' href='{{ BASE_PATH }}/assets/images/icons/32.png'>
+    <link rel='icon' sizes='192x192' href='{{ BASE_PATH }}/assets/images/icons/192.png'>
+    <link rel='apple-touch-icon' href='{{ BASE_PATH }}/assets/images/icons/152.png'>
+    <meta name='msapplication-square310x310logo' content='{{ BASE_PATH }}/assets/images/icons/310.png'>
 
 <!-- Bots -->
     {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
