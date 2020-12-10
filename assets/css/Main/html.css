@@ -38,6 +38,20 @@ h6 { font-size:16px }
     margin-bottom:0
 }
 
+#header-style-1{
+    background-image:url(/assets/images/bg/hero-1-bg.jpg);
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    background-position:contain
+}
+
+.header-style-3 {
+    background:url(/assets/images/bg/hero-3-bg.jpg) no-repeat left center;
+    background-size:cover;
+    padding-top:80px
+}
+
 #headers .header-caption{
     text-align:center;
     height:auto;
@@ -69,14 +83,6 @@ h6 { font-size:16px }
     margin:15px
 }
 
-#header-style-1{
-    background-image:url(/assets/images/bg/hero-1-bg.jpg);
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    background-size:cover;
-    background-position:contain
-}
-
 #header-style-1 .header-title{
     color:#fff
 }
@@ -98,12 +104,6 @@ h6 { font-size:16px }
 
 .header-style-2{
     background:#f4f6f9;
-    padding-top:80px
-}
-
-.header-style-3 {
-    background:url(/assets/images/bg/hero-3-bg.jpg) no-repeat left center;
-    background-size:cover;
     padding-top:80px
 }
 
