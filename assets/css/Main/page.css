@@ -159,6 +159,13 @@
     .service-box .service-content h4{
         font-size:14px
     }
+
+    .contact-form-sub-button {
+        margin: auto;
+        display: block;
+        text-align: center;
+        width: 50%;
+    }
 }
 
 /* ----------------------------------------------------------------------------------------- */
@@ -193,12 +200,6 @@
     .home-counter-element h3 {
         font-size:24px;
     }
-    
-}
-
-/* ----------------------------------------------------------------------------------------- */
-/* Tiny devices */
-@media (max-width: 480px) {
 
     .contact-form-sub-button {
         margin: auto;
@@ -206,5 +207,5 @@
         text-align: center;
         width: 50%;
     }
-
+    
 }

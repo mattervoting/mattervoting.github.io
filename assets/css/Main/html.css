@@ -6,13 +6,13 @@
 }
 
 .text-primary {
-    font-family: daysOne !important;
+    font-family: "Roboto" !important;
     color:#1E9CD7 !important
 }
 
 h1, h2, h3, h4, h5, h6 {
     color:#444;
-    font-family: daysOne, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight:700;
     letter-spacing:0px;
     margin-top:0
@@ -383,7 +383,7 @@ strong{
 body {
     color:#444;
     background:#fff;
-    font-family: daysOne, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight:400;
     font-size:14px;
     line-height:20px;
