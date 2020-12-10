@@ -4,6 +4,13 @@
     font-weight:bold;
 }
 
+.contact-form-sub-button {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 30%;
+}
+
 .accentTxt {
     color: white;
     margin: auto;
@@ -187,4 +194,17 @@
         font-size:24px;
     }
     
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Tiny devices */
+@media (max-width: 480px) {
+
+    .contact-form-sub-button {
+        margin: auto;
+        display: block;
+        text-align: center;
+        width: 35%;
+    }
+
 }
