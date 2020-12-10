@@ -1,5 +1,5 @@
 .textTitle {
-    color: #EB586F;
+    color: #1E9CD7;
     font-size:48px;
     font-weight:bold;
 }
@@ -79,10 +79,10 @@
 }
 
 .service-box .service-content h4 a:hover {
-    color:#EB586F
+    color:#1E9CD7
 }
 
-.social .fa-facebook:hover {
+.social .fa-facebook-f:hover {
     color:#3b5998
 }
 
@@ -92,6 +92,22 @@
 
 .social .fa-instagram:hover {
     color:#fb3958
+}
+
+.social .fa-discord:hover {
+    color: #7289DA
+}
+
+.social .fa-telegram:hover {
+    color:#0088CC
+}
+
+.social .fa-github:hover {
+    color: #6cc644
+}
+
+.social .fa-linkedin:hover {
+    color:#0077B5
 }
 
 .social-links li {

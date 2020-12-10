@@ -118,7 +118,7 @@
     margin-left:3px
 }
 .log-line .checkbox-primary label{
-    color:#EB586F
+    color:#1E9CD7
 }
 .forgot-password{
     font-size:16px
@@ -142,24 +142,24 @@
     border-radius:5em
 }
 .label-default{
-    color:#EB586F;
+    color:#1E9CD7;
     background-color:transparent;
-    border:2px solid #EB586F
+    border:2px solid #1E9CD7
 }
 .label-default-filled{
     color:#fff;
-    background-color:#EB586F;
-    border:2px solid #EB586F
+    background-color:#1E9CD7;
+    border:2px solid #1E9CD7
 }
 .label-primary{
-    color:#EB586F;
+    color:#1E9CD7;
     background-color:transparent;
-    border:2px solid #EB586F
+    border:2px solid #1E9CD7
 }
 .label-primary-filled{
     color:#fff;
-    background-color:#EB586F;
-    border:2px solid #EB586F
+    background-color:#1E9CD7;
+    border:2px solid #1E9CD7
 }
 .label-success{
     color:#87c056;
@@ -203,11 +203,11 @@
 }
 .nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{
     color:#fff;
-    background-color:#EB586F
+    background-color:#1E9CD7
 }
 .nav-pills>li>a:hover{
     color:#fff;
-    background-color:#EB586F
+    background-color:#1E9CD7
 }
 .nav-pills>li>a{
     border-radius:5px;
@@ -216,7 +216,7 @@
 }
 .badge{
     color:#fff;
-    background-color:#EB586F;
+    background-color:#1E9CD7;
     font-size:10px;
     font-weight:400;
     border-radius:5px;
@@ -369,7 +369,7 @@
     -o-transition:left 250ms cubic-bezier(0.34, 1.61, 0.7, 1),right 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
     -webkit-transition:left 250ms cubic-bezier(0.34, 1.61, 0.7, 1),right 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
     transition:left 250ms cubic-bezier(0.34, 1.61, 0.7, 1),right 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
-    background:#EB586F
+    background:#1E9CD7
 }
 .tgl .tgl_bgd-negative{
     right:auto;
@@ -420,7 +420,7 @@ a:focus:not([href]):not([tabindex]),a:hover:not([href]):not([tabindex]){
 }
 .controls .active{
     color:#fff !important;
-    background:#EB586F
+    background:#1E9CD7
 }
 #portfolio-list{
     margin-top:15px;
@@ -496,7 +496,7 @@ a:focus:not([href]):not([tabindex]),a:hover:not([href]):not([tabindex]){
 }
 .sup-desc-wrap .sup-link a:hover{
     background:#fff;
-    color:#EB586F
+    color:#1E9CD7
 }
 .sup-desc-wrap .sup-link .left-link,.sup-desc-wrap .sup-link .right-link{
     font-size:14px;
@@ -615,7 +615,7 @@ a:focus:not([href]):not([tabindex]),a:hover:not([href]):not([tabindex]){
 }
 .hovereffect .iocns a:hover{
     background:#fff;
-    color:#EB586F
+    color:#1E9CD7
 }
 .hovereffect-title h6,.hovereffect-title h5{
     color:#fff;
@@ -703,7 +703,7 @@ figure{
     outline:none;
     border-radius:4px;
     color:#fff;
-    background:#EB586F;
+    background:#1E9CD7;
     border:1px solid transparent;
     width:42px;
     height:42px;
@@ -734,10 +734,10 @@ figure{
 .table-bordered.table-2>thead>tr>th{
     background:#232833;
     font-weight:700;
-    color:#EB586F
+    color:#1E9CD7
 }
 .table-bordered.table-3>thead>tr>th{
-    background:#EB586F;
+    background:#1E9CD7;
     font-weight:700;
     color:#fff
 }
@@ -775,7 +775,7 @@ figure{
 }
 .panel-group .panel-heading{
     padding:15px;
-    background:#EB586F
+    background:#1E9CD7
 }
 .panel-group .panel-title{
     font-size:16px;

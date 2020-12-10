@@ -11,7 +11,7 @@
 }
 
 .dropdown-item:focus,.dropdown-item:hover {
-    background:#EB586F;
+    background:#1E9CD7;
     color:#fff
 }
 
@@ -22,5 +22,5 @@
 }
 .list-style li i{
     margin-right:10px;
-    color:#EB586F
+    color:#1E9CD7
 }

@@ -1,8 +1,9 @@
 .navbar-logo {
-    width: 80px;
-    height: 80px;
+    width: auto;
+    height: 60px;
+    position: relative;
+    display: block;
     padding: 0px;
-    margin: 0px;
 }
 
 .navbar-home-link {
@@ -28,7 +29,7 @@
 }
 
 .btn-top-menu:hover {
-    border:2px solid #EB586F
+    border:2px solid #1E9CD7
 }
 
 .btn-top-menu a {
@@ -45,8 +46,8 @@
     padding:5px 0
 }
 .btn-top-menu-inverse:hover{
-    border:2px solid #EB586F;
-    background:#EB586F
+    border:2px solid #1E9CD7;
+    background:#1E9CD7
 }
 .btn-top-menu-inverse a:hover{
     color:#fff !important
@@ -78,7 +79,7 @@
 }
 
 .navbar-toggle .icon-bar {
-    background:#EB586F;
+    background:#1E9CD7;
     width:20px;
     height:3px;
     border-radius:5px;
@@ -103,7 +104,7 @@
 }
 
 .nav-link:focus, .navbar-nav .nav-link:hover {
-    color:#EB586F
+    color:#1E9CD7
 }
 
 .navbar-nav .nav-link {
@@ -115,25 +116,25 @@
 }
 
 .navbar-nav .nav-link:hover {
-    color:#EB586F
+    color:#1E9CD7
 }
 
 .navbar-nav .nav-link:hover:focus {
-    color:#EB586F
+    color:#1E9CD7
 }
 
 .navbar-nav>.active>a,.navbar-nav>.active>a:focus,.navbar-nav>.active>a:hover {
-    color:#EB586F;
+    color:#1E9CD7;
     background-color:transparent
 }
 
 .navbar-nav>.open>a,.navbar-nav>.open>a:focus,.navbar-nav>.open>a:hover {
-    color:#EB586F;
+    color:#1E9CD7;
     background-color:transparent
 }
 
 .navbar-toggle .icon-bar {
-    background-color:#EB586F
+    background-color:#1E9CD7
 }
 
 .navbar-toggle{
@@ -195,7 +196,7 @@
 }
 
 .navbar-light-transparent.navbar-nav>li>a:hover {
-    color:#EB586F
+    color:#1E9CD7
 }
 
 .navbar-light-transparent.navbar-nav>li>a:focus {
@@ -203,17 +204,17 @@
 }
 
 .navbar-light-transparent.navbar-nav>.active>a,.navbar-light-transparent.navbar-nav>.active>a:focus,.navbar-light-transparent.navbar-nav>.active>a:hover{
-    color:#EB586F;
+    color:#1E9CD7;
     background-color:transparent
 }
 
 .navbar-light-transparent.navbar-nav>.open>a,.navbar-light-transparent.navbar-nav>.open>a:focus,.navbar-light-transparent.navbar-nav>.open>a:hover{
-    color:#EB586F;
+    color:#1E9CD7;
     background-color:transparent
 }
 
 .navbar-light-transparent.navbar-toggle .icon-bar{
-    background-color:#EB586F
+    background-color:#1E9CD7
 }
 
 .navbar-light-transparent.navbar-toggle{
@@ -229,7 +230,7 @@
 }
 
 .navbar-inverse-transparent.navbar-inverse .navbar-nav>li>a:hover{
-    color:#EB586F
+    color:#1E9CD7
 }
 
 .navbar-inverse-transparent.navbar-inverse .navbar-nav>li>a:focus{
@@ -237,17 +238,17 @@
 }
 
 .navbar-inverse-transparent.navbar-inverse .navbar-nav>.active>a,.navbar-inverse-transparent.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse-transparent.navbar-inverse .navbar-nav>.active>a:hover{
-    color:#EB586F;
+    color:#1E9CD7;
     background-color:transparent
 }
 
 .navbar-inverse-transparent.navbar-inverse .navbar-nav>.open>a,.navbar-inverse-transparent.navbar-inverse .navbar-nav>.open>a:focus,.navbar-inverse-transparent.navbar-inverse .navbar-nav>.open>a:hover{
-    color:#EB586F;
+    color:#1E9CD7;
     background-color:transparent
 }
 
 .navbar-inverse-transparent.navbar-inverse .navbar-toggle .icon-bar{
-    background-color:#EB586F
+    background-color:#1E9CD7
 }
 
 .navbar-inverse-transparent .navbar-inverse .navbar-toggle{
@@ -287,7 +288,7 @@
     color:#444 !important
 }
 .top-menu a:hover{
-    color:#EB586F !important
+    color:#1E9CD7 !important
 }
 .top-menu .left i{
     margin-right:5px
@@ -315,13 +316,13 @@
     border:2px solid #fff
 }
 .top-menu-bg .btn-top-menu:hover{
-    border:2px solid #EB586F
+    border:2px solid #1E9CD7
 }
 .top-menu-bg-inverse .btn-top-menu-inverse{
     border:2px solid #000
 }
 .top-menu-bg-inverse .btn-top-menu-inverse:hover{
-    border:2px solid #EB586F
+    border:2px solid #1E9CD7
 }
 .navmenu,.navbar-offcanvas{
     width:200px;
@@ -332,7 +333,7 @@
     border-left:1px solid #eee
 }
 .navmenu-default .navmenu-nav>li>a:hover,.navbar-default .navbar-offcanvas .navmenu-nav>li>a:hover,.navmenu-default .navmenu-nav>li>a:focus,.navbar-default .navbar-offcanvas .navmenu-nav>li>a:focus{
-    color:#EB586F;
+    color:#1E9CD7;
     background-color:transparent
 }
 .navmenu-default .navmenu-nav>li{
@@ -346,10 +347,10 @@
     font-weight:300
 }
 nav#menu span.fa.fa-bars:hover{
-    color:#EB586F
+    color:#1E9CD7
 }
 .navmenu-default .navmenu-nav>.active>a,.navbar-default .navbar-offcanvas .navmenu-nav>.active>a,.navmenu-default .navmenu-nav>.active>a:hover,.navbar-default .navbar-offcanvas .navmenu-nav>.active>a:hover,.navmenu-default .navmenu-nav>.active>a:focus,.navbar-default .navbar-offcanvas .navmenu-nav>.active>a:focus{
-    color:#EB586F
+    color:#1E9CD7
 }
 .close{
     background:transparent;
@@ -360,7 +361,7 @@ nav#menu span.fa.fa-bars:hover{
     right:0px
 }
 .close i{
-    background:#EB586F;
+    background:#1E9CD7;
     color:#fff;
     border-radius:4px;
     font-size:16px;
@@ -400,7 +401,7 @@ ul.nav-tabs li a{
 #default-tab .nav-tabs>li>a.active,#default-tab .nav-tabs>li a.active:focus,#default-tab .nav-tabs>li a.active:hover{
     border:0 none;
     position:relative;
-    color:#EB586F
+    color:#1E9CD7
 }
 .nav-bg>li>a{
     color:#444;
@@ -409,12 +410,12 @@ ul.nav-tabs li a{
     margin-right:10px
 }
 .nav-bg>li>a.active,.nav-bg>li a.active:focus,.nav-bg>li a:hover{
-    color:#EB586F !important;
-    border:1px solid #EB586F !important;
+    color:#1E9CD7 !important;
+    border:1px solid #1E9CD7 !important;
     border-radius:0
 }
 .nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{
-    color:#EB586F
+    color:#1E9CD7
 }
 .nav-tabs{
     border-bottom:none
@@ -424,18 +425,20 @@ ul.nav-tabs li a{
     border-top-left-radius:0px
 }
 
-.navbar-logo {
-    width: auto;
-    height: 60px;
-    padding: 0px;
-    margin: 0px;
-}
-
 .homeSlideTxt {
     max-width: 80%;
     margin: auto;
     display: block;
     text-align: center;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Screens */
+@media (min-width: 600px) and (max-width: 800px) {
+    .navbar-brand {
+        padding:20px 15px;
+        max-height: 80px;
+    }
 }
 
 /* ----------------------------------------------------------------------------------------- */
@@ -448,11 +451,12 @@ ul.nav-tabs li a{
     }
 
     .navbar-logo {
-        width: auto;
-        height: 60px;
-        padding: 0px;
-        margin: 0px;
-        margin-top: 4px;
+        top: 0px;
+        margin-top: -8px;
+    }
+
+    .navbar-brand {
+        padding:20px 15px;
     }
 }
 
@@ -480,14 +484,6 @@ ul.nav-tabs li a{
       display: inline-block;
       width: 100%;
       margin: 0px;
-    }
-
-    .navbar-logo {
-        width: auto;
-        height: 60px;
-        padding: 0px;
-        margin: 0px;
-        margin-top: -8px;
     }
 
     .navbar-collapse {
@@ -526,14 +522,6 @@ ul.nav-tabs li a{
     .navbar-media {
         display: inline-block;
         width: 100%;
-    }
-
-    .navbar-logo {
-        width: auto;
-        height: 60px;
-        padding: 0px;
-        margin: 0px;
-        margin-top: -8px;
     }
 }
 

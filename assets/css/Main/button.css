@@ -51,51 +51,51 @@
 
 
 .btn-link  {
-    color:#EB586F
+    color:#1E9CD7
 }
 
 .btn-link:hover {
-    color:#D14E63;
+    color:#005B97;
     text-decoration:none
 }
 
 .btn-link:focus {
-    color:#D14E63;
+    color:#005B97;
     text-decoration:none
 }
 
 .btn-common,.btn-common:active,.btn-common:focus {
-    color:#EB586F;
-    border:2px solid #EB586F;
+    color:#1E9CD7;
+    border:2px solid #1E9CD7;
     background:transparent
 }
 
 .btn-common:hover {
     color:#fff;
-    background:#EB586F;
-    border:2px solid #EB586F
+    background:#1E9CD7;
+    border:2px solid #1E9CD7
 }
 
 .btn-filled {
-    background:#EB586F;
-    border:2px solid #EB586F;
+    background:#1E9CD7;
+    border:2px solid #1E9CD7;
     color:#fff
 }
 
 .btn-filled:hover {
-    background:#D14E63
+    background:#005B97
 }
 
 .btn-default-filled,.btn-default-filled:active,.btn-default-filled:focus {
     color:#fff;
-    background:#EB586F;
-    border:2px solid #EB586F
+    background:#1E9CD7;
+    border:2px solid #1E9CD7
 }
 
 .btn-default-filled:hover {
     color:#fff;
-    background:#D14E63;
-    border:2px solid #D14E63
+    background:#005B97;
+    border:2px solid #005B97
 }
 
 .btn-success,.btn-success:active,.btn-success:focus {
@@ -205,32 +205,32 @@
     padding:5.5px 8px
 }
 .pagination .btn-default{
-    color:#EB586F;
+    color:#1E9CD7;
     border:1px solid #ddd;
     background:transparent
 }
 
 .pagination .btn-default:hover {
     color:#fff;
-    background:#EB586F;
-    border:1px solid #EB586F
+    background:#1E9CD7;
+    border:1px solid #1E9CD7
 }
 
 .pagination .btn-active {
     color:#fff !important;
-    background:#EB586F !important;
-    border:1px solid #EB586F !important
+    background:#1E9CD7 !important;
+    border:1px solid #1E9CD7 !important
 }
 .pagination .btn-default-filled {
-    color:#EB586F;
+    color:#1E9CD7;
     background:#ddd;
     border:1px solid #ddd
 }
 
 .pagination .btn-default-filled:hover {
     color:#fff;
-    background:#D14E63;
-    border:1px solid #D14E63
+    background:#005B97;
+    border:1px solid #005B97
 }
 
 .button-title {
