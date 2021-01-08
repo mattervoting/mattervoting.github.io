@@ -6,4 +6,4 @@ Disallow: /_config.yml
 Disallow: /_layouts/
 Disallow: /_plugins/
 
-Sitemap: https://www.matterfi.com/sitemap.txt
+Sitemap: https://www.Matter Voting.com/sitemap.txt

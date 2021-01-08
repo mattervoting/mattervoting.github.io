@@ -1,6 +1,6 @@
 {
-    "short_name": "MatterFi",
-    "name": "MatterFi: Currency with a Material Feel.",
+    "short_name": "Matter Voting",
+    "name": "Matter Voting: Currency with a Material Feel.",
     "description": "A Cypto Wallet Manager. Great Ideas are plentiful, its execution that really Matters.",
     "icons": [
       {
@@ -14,7 +14,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "https://matterfi.com",
+    "start_url": "https://Matter Voting.com",
     "background_color": "#444",
     "display": "standalone",
     "scope": "/",

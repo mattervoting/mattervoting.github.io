@@ -1,4 +1,4 @@
-# MatterFi
+# Matter Voting
 
 To Launch Locally:
 ```
