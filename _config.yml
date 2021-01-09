@@ -16,18 +16,18 @@ title: Matter Voting
 tagline: Currency with a Material Feel.
 company:
   name: Matter Voting
-  site: https://github.com/Matter Voting
+  site: https://github.com/mattervoting/mattervoting.github.io
   description: Crypto Wallets.
   image: social-image.png
-  email: 'contact@Matter Voting.com'
+  email: 'buy@mattervoting.com'
   # social medias:
-  linkedin:   company/Matter Voting
-  twitter:    FiMatter
-  facebook:   Matter Voting-108207714429114/s
-  instagram:  Matter Votingnance
-  github:     Matter Voting
-  telegram:   Matter Voting
-  discord:    RVGfCbZNmG
+  linkedin:   null
+  twitter:    null
+  facebook:   null
+  instagram:  null
+  github:     null
+  telegram:   null
+  discord:    null
   pinterest:  null
   feedburner: null
 
@@ -38,7 +38,7 @@ contact_info:
   address_ln1: 30 N Gould St, Ste 400
   address_ln2: Sheridan, WY 82801
   phone: Phone#
-  email: contact@Matter Voting.com
+  email: buy@mattervoting.com
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -48,8 +48,8 @@ contact_info:
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url: https://www.Matter Voting.com
-url: https://Matter Voting.github.io
+production_url: http://mattervoting.com
+url: http://mattervoting.com
 baseurl: ""
 
 # Used when creating press post html pages from markup:
