@@ -1,5 +1,5 @@
 .textTitle {
-    color: #1E9CD7;
+    color: #E9141D;
     font-size:48px;
     font-weight:bold;
 }
@@ -58,7 +58,7 @@
 }
 
 .service-box .service-icon {
-    float:left;
+    float: left;
     margin-top:5px
 }
 
@@ -86,7 +86,7 @@
 }
 
 .service-box .service-content h4 a:hover {
-    color:#1E9CD7
+    color:#E9141D
 }
 
 .social .fa-facebook-f:hover {

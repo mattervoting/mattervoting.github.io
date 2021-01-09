@@ -51,7 +51,7 @@
 
 
 .btn-link  {
-    color:#1E9CD7
+    color:#E9141D
 }
 
 .btn-link:hover {
@@ -65,20 +65,20 @@
 }
 
 .btn-common,.btn-common:active,.btn-common:focus {
-    color:#1E9CD7;
-    border:2px solid #1E9CD7;
+    color:#E9141D;
+    border:2px solid #E9141D;
     background:transparent
 }
 
 .btn-common:hover {
     color:#fff;
-    background:#1E9CD7;
-    border:2px solid #1E9CD7
+    background:#E9141D;
+    border:2px solid #E9141D
 }
 
 .btn-filled {
-    background:#1E9CD7;
-    border:2px solid #1E9CD7;
+    background:#E9141D;
+    border:2px solid #E9141D;
     color:#fff
 }
 
@@ -88,8 +88,8 @@
 
 .btn-default-filled,.btn-default-filled:active,.btn-default-filled:focus {
     color:#fff;
-    background:#1E9CD7;
-    border:2px solid #1E9CD7
+    background:#E9141D;
+    border:2px solid #E9141D
 }
 
 .btn-default-filled:hover {
@@ -205,24 +205,24 @@
     padding:5.5px 8px
 }
 .pagination .btn-default{
-    color:#1E9CD7;
+    color:#E9141D;
     border:1px solid #ddd;
     background:transparent
 }
 
 .pagination .btn-default:hover {
     color:#fff;
-    background:#1E9CD7;
-    border:1px solid #1E9CD7
+    background:#E9141D;
+    border:1px solid #E9141D
 }
 
 .pagination .btn-active {
     color:#fff !important;
-    background:#1E9CD7 !important;
-    border:1px solid #1E9CD7 !important
+    background:#E9141D !important;
+    border:1px solid #E9141D !important
 }
 .pagination .btn-default-filled {
-    color:#1E9CD7;
+    color:#E9141D;
     background:#ddd;
     border:1px solid #ddd
 }

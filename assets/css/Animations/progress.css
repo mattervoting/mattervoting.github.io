@@ -11,15 +11,15 @@
     font-size:11px;
     line-height:15px;
     color:#fff;
-    background-color:#1E9CD7;
+    background-color:#E9141D;
     -webkit-box-shadow:none;
     box-shadow:none
 }
 .progress-bar-default{
-    background-color:#1E9CD7
+    background-color:#E9141D
 }
 .progress-bar-primary{
-    background-color:#1E9CD7
+    background-color:#E9141D
 }
 .progress-bar-success{
     background-color:#87c056

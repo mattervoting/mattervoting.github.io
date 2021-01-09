@@ -17,7 +17,7 @@
 
 .text-primary {
     font-family: roboto !important;
-    color:#1E9CD7 !important
+    color:#E9141D !important
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,7 +66,7 @@ h6 { font-size:16px }
 }
 
 .header-title .text-primary{
-    color:#1E9CD7 !important
+    color:#E9141D !important
 }
 
 .header-content header-title span{
@@ -137,7 +137,7 @@ h6 { font-size:16px }
 }
 
 .about h5 a:hover {
-    color:#1E9CD7
+    color:#E9141D
 }
 
 .about.block img {
@@ -151,7 +151,7 @@ h6 { font-size:16px }
 }
 
 a {
-    color:#1E9CD7;
+    color:#E9141D;
     -moz-transition:.2s ease-in;
     -o-transition:.2s ease-in;
     -webkit-transition:.2s ease-in;
@@ -232,17 +232,17 @@ strong{
     text-align:right
 }
 .text-default {
-    color:#1E9CD7
+    color:#E9141D
 }
 .bg-default{
     color:#444;
-    background:#1E9CD7;
+    background:#E9141D;
     padding:3px 4px
 }
 
 .bg-primary {
     color:#fff;
-    background:#1E9CD7;
+    background:#E9141D;
     padding:3px 4px
 }
 .bg-success {
@@ -369,7 +369,7 @@ strong{
 }
 
 .count-one .icon i {
-    color:#1E9CD7;
+    color:#E9141D;
     font-size:48px
 }
 
