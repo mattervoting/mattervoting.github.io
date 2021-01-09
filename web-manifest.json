@@ -14,7 +14,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "https://Matter Voting.com",
+    "start_url": "http://mattervoting.com",
     "background_color": "#444",
     "display": "standalone",
     "scope": "/",
