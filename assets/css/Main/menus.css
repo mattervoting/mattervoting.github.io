@@ -1,3 +1,8 @@
+:root {
+    --maintext: #E23021;
+    --maincolor:  #E23021;
+}
+
 .dropdown-menu {
     padding:10px 0px;
     border:0;
@@ -11,7 +16,7 @@
 }
 
 .dropdown-item:focus,.dropdown-item:hover {
-    background:#E9141D;
+    background:var(--maintext);
     color:#fff
 }
 
@@ -22,5 +27,5 @@
 }
 .list-style li i{
     margin-right:10px;
-    color:#E9141D
+    color:var(--maintext)
 }

@@ -1,3 +1,8 @@
+:root {
+    --maintext: #E23021;
+    --maincolor:  #E23021;
+}
+
 .progress{
     height:15px;
     margin-bottom:20px;
@@ -11,15 +16,15 @@
     font-size:11px;
     line-height:15px;
     color:#fff;
-    background-color:#E9141D;
+    background-color: var(--maintext);
     -webkit-box-shadow:none;
     box-shadow:none
 }
 .progress-bar-default{
-    background-color:#E9141D
+    background-color:var(--maintext)
 }
 .progress-bar-primary{
-    background-color:#E9141D
+    background-color:var(--maintext)
 }
 .progress-bar-success{
     background-color:#87c056

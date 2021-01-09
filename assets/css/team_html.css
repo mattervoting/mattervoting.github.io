@@ -1,3 +1,9 @@
+:root {
+    --maintext: #E23021;
+    --maincolor:  #E23021;
+    --accentcolor: #5d8eb8;
+}
+
 .team-portrait {
     height: 100%;
     width: 100%;
@@ -21,7 +27,7 @@
 }
 
 .team-link {
-    color: #5d8eb8;
+    color: var(--accentcolor);
     text-align: center;
 }
 

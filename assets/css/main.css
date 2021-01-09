@@ -1,3 +1,8 @@
+:root {
+    --maintext: #E23021;
+    --maincolor:  #E23021;
+}
+
 .blockintrests-img {
     height: 52px;
     width: 52px;
@@ -128,7 +133,7 @@
     margin-left:3px
 }
 .log-line .checkbox-primary label{
-    color:#E9141D
+    color: var(--maintext);
 }
 .forgot-password{
     font-size:16px
@@ -152,24 +157,24 @@
     border-radius:5em
 }
 .label-default{
-    color:#E9141D;
+    color: var(--maintext);
     background-color:transparent;
-    border:2px solid #E9141D
+    border:2px solid var(--maintext)
 }
 .label-default-filled{
     color:#fff;
-    background-color:#E9141D;
-    border:2px solid #E9141D
+    background-color: var(--maintext);
+    border:2px solid var(--maintext)
 }
 .label-primary{
-    color:#E9141D;
+    color: var(--maintext);
     background-color:transparent;
-    border:2px solid #E9141D
+    border:2px solid var(--maintext)
 }
 .label-primary-filled{
     color:#fff;
-    background-color:#E9141D;
-    border:2px solid #E9141D
+    background-color: var(--maintext);
+    border:2px solid var(--maintext)
 }
 .label-success{
     color:#87c056;
@@ -213,11 +218,11 @@
 }
 .nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{
     color:#fff;
-    background-color:#E9141D
+    background-color:var(--maintext)
 }
 .nav-pills>li>a:hover{
     color:#fff;
-    background-color:#E9141D
+    background-color:var(--maintext)
 }
 .nav-pills>li>a{
     border-radius:5px;
@@ -226,7 +231,7 @@
 }
 .badge{
     color:#fff;
-    background-color:#E9141D;
+    background-color: var(--maintext);
     font-size:10px;
     font-weight:400;
     border-radius:5px;
@@ -379,7 +384,7 @@
     -o-transition:left 250ms cubic-bezier(0.34, 1.61, 0.7, 1),right 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
     -webkit-transition:left 250ms cubic-bezier(0.34, 1.61, 0.7, 1),right 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
     transition:left 250ms cubic-bezier(0.34, 1.61, 0.7, 1),right 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
-    background:#E9141D
+    background:var(--maintext)
 }
 .tgl .tgl_bgd-negative{
     right:auto;
@@ -430,7 +435,7 @@ a:focus:not([href]):not([tabindex]),a:hover:not([href]):not([tabindex]){
 }
 .controls .active{
     color:#fff !important;
-    background:#E9141D
+    background:var(--maintext)
 }
 #portfolio-list{
     margin-top:15px;
@@ -506,7 +511,7 @@ a:focus:not([href]):not([tabindex]),a:hover:not([href]):not([tabindex]){
 }
 .sup-desc-wrap .sup-link a:hover{
     background:#fff;
-    color:#E9141D
+    color:var(--maintext)
 }
 .sup-desc-wrap .sup-link .left-link,.sup-desc-wrap .sup-link .right-link{
     font-size:14px;
@@ -625,7 +630,7 @@ a:focus:not([href]):not([tabindex]),a:hover:not([href]):not([tabindex]){
 }
 .hovereffect .iocns a:hover{
     background:#fff;
-    color:#E9141D
+    color:var(--maintext)
 }
 .hovereffect-title h6,.hovereffect-title h5{
     color:#fff;
@@ -713,7 +718,7 @@ figure{
     outline:none;
     border-radius:4px;
     color:#fff;
-    background:#E9141D;
+    background:var(--maintext);
     border:1px solid transparent;
     width:42px;
     height:42px;
@@ -744,10 +749,10 @@ figure{
 .table-bordered.table-2>thead>tr>th{
     background:#232833;
     font-weight:700;
-    color:#E9141D
+    color:var(--maintext)
 }
 .table-bordered.table-3>thead>tr>th{
-    background:#E9141D;
+    background:var(--maintext);
     font-weight:700;
     color:#fff
 }
@@ -785,7 +790,7 @@ figure{
 }
 .panel-group .panel-heading{
     padding:15px;
-    background:#E9141D
+    background:var(--maintext)
 }
 .panel-group .panel-title{
     font-size:16px;

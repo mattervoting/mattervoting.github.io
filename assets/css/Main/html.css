@@ -15,9 +15,14 @@
     src: url("/assets/fonts/Roboto/Roboto-Bold.ttf");
 }
 
+:root {
+    --maintext: #E23021;
+    --maincolor:  #E23021;
+}
+
 .text-primary {
     font-family: roboto !important;
-    color:#E9141D !important
+    color: var(--maintext) !important
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,7 +71,7 @@ h6 { font-size:16px }
 }
 
 .header-title .text-primary{
-    color:#E9141D !important
+    color:var(--maintext) !important
 }
 
 .header-content header-title span{
@@ -137,7 +142,7 @@ h6 { font-size:16px }
 }
 
 .about h5 a:hover {
-    color:#E9141D
+    color:var(--maintext)
 }
 
 .about.block img {
@@ -151,7 +156,7 @@ h6 { font-size:16px }
 }
 
 a {
-    color:#E9141D;
+    color: var(--maintext);
     -moz-transition:.2s ease-in;
     -o-transition:.2s ease-in;
     -webkit-transition:.2s ease-in;
@@ -232,17 +237,17 @@ strong{
     text-align:right
 }
 .text-default {
-    color:#E9141D
+    color:var(--maintext)
 }
 .bg-default{
     color:#444;
-    background:#E9141D;
+    background:var(--maintext);
     padding:3px 4px
 }
 
 .bg-primary {
     color:#fff;
-    background:#E9141D;
+    background:var(--maintext);
     padding:3px 4px
 }
 .bg-success {
@@ -369,7 +374,7 @@ strong{
 }
 
 .count-one .icon i {
-    color:#E9141D;
+    color: var(--maintext);
     font-size:48px
 }
 

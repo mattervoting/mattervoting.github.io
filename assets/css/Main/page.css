@@ -1,5 +1,11 @@
+:root {
+    --maintext: #E23021;
+    --maincolor:  #E23021;
+    --accentcolor: #5d8eb8;
+}
+
 .textTitle {
-    color: #E9141D;
+    color: var(--maintext);
     font-size:48px;
     font-weight:bold;
 }
@@ -64,7 +70,7 @@
 
 .service-box .service-icon i {
     font-size:32px;
-    color:#5d8eb8
+    color:var(--accentcolor)
 }
 
 .service-box .service-content {
@@ -86,7 +92,7 @@
 }
 
 .service-box .service-content h4 a:hover {
-    color:#E9141D
+    color:var(--maintext)
 }
 
 .social .fa-facebook-f:hover {

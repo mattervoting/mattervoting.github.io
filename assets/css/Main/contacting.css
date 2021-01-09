@@ -1,10 +1,15 @@
+:root {
+    --maintext: #E23021;
+    --maincolor:  #E23021;
+}
+
 .contact-form .form-control{
     background:transparent;
     padding:15px 25px 15px 50px;
     color:#444
 }
 .contact-form .form-control:focus{
-    border-color:#E9141D
+    border-color:var(--maintext)
 }
 .contact-form .contact-icon{
     left:34px;
@@ -23,7 +28,7 @@
     resize:vertical
 }
 .contact-form textarea:focus{
-    border-color:#E9141D
+    border-color:var(--maintext)
 }
 .contact-form .form-group{
     margin-bottom:0
@@ -76,7 +81,7 @@ address i{
     appearance:none
 }
 .form-control:focus{
-    border-color:#E9141D
+    border-color:var(--maintext)
 }
 .form-group input{
     font:normal normal normal 14px/1 FontAwesome,"Rubik",sans-serif
@@ -101,7 +106,7 @@ address i{
     appearance:none
 }
 #contactForm .form-control:focus{
-    border-color:#E9141D
+    border-color:var(--maintext)
 }
 #contactForm textarea{
     max-width:100%;

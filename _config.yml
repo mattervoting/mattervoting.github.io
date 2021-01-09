@@ -7,6 +7,10 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
 
+colors: 
+  main: e23021
+
+
 # Site Company
 title: Matter Voting
 tagline: Currency with a Material Feel.
