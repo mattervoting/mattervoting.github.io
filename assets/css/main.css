@@ -3,6 +3,19 @@
     --maincolor:  #E23021;
 }
 
+
+.img-blank-fill {
+    height: 600px;
+    width: 100%;
+}
+
+.hero-noimg {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
 .blockintrests-img {
     height: 48px;
     width: 48px;
