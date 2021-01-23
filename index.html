@@ -55,7 +55,7 @@ topblocks:
 
   <!-- Header Slides -->
   <div id="sliders">
-    <div class=>
+    <div class="">
       <div id="light-slider" class="carousel slide home-slider-show">
         <div id="carousel-area">
           <div id="carousel-slider" class="carousel slide" data-ride="carousel">
@@ -290,23 +290,25 @@ topblocks:
       </div>
       <div class="row">
         <!-- Team Item Starts -->
-        <div class="col-sm-6 col-md-4">
-          <figure>
-            <img class="team-portrait" src="{{ BASE_PATH }}/assets/images/team/team-01.jpg" alt="">
-            <div class="image-overlay">
-              <div class="overlay-text text-center">
-                <div class="info-text">
-                  <strong><a class="team-link" href="/team.html">{{ site.team.member_01.name }}</a></strong>
-                  <span>{{ site.team.member_01.title }}</span>
+        {% if site.team.member_01 %}
+          <div class="col-sm-6 col-md-4">
+            <figure>
+              <img class="team-portrait" src="{{ BASE_PATH }}/assets/images/team/team-01.jpg" alt="">
+              <div class="image-overlay">
+                <div class="overlay-text text-center">
+                  <div class="info-text">
+                    <strong><a class="team-link" href="/team.html">{{ site.team.member_01.name }}</a></strong>
+                    <span>{{ site.team.member_01.title }}</span>
+                  </div>
+                  <hr class="small-divider border-white">
+                  <ul class="social-icons">
+                    <a href="{{ site.team.member_01.linkedin }}">Linkedin</a>
+                  </ul>
                 </div>
-                <hr class="small-divider border-white">
-                <ul class="social-icons">
-                  <a href="{{ site.team.member_01.linkedin }}">Linkedin</a>
-                </ul>
               </div>
-            </div>
-          </figure>
-        </div>
+            </figure>
+          </div>
+        {% endif %}
         <!-- Team Item Starts -->
         <div class="col-sm-6 col-md-4">
           <figure>

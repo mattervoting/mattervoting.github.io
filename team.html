@@ -38,32 +38,34 @@ keywords: crypto, votin, investing, app, Matter Voting, team, contact
         <div class="row">
 
           <!-- Member Item Starts -->
-          <div class="col-sm-6 col-md-4">
-            <div class="team-item">
-              <figure class="team-profile">
-                <img src="{{ BASE_PATH }}/assets/images/team/team-01.jpg" alt="">
-                <figcaption class="our-team">
-                  <div class="details">
-                    <p class="content-white">{{ site.team.member_01.catchphrase }}</p>
-                    <hr class="small-divider border-white">
-                    <div class="social">
-                      <a href="{{ site.team.member_01.linkedin }}">Linkedin</a>
+          {% if site.team.member_01 %}
+            <div class="col-sm-6 col-md-4">
+              <div class="team-item">
+                <figure class="team-profile">
+                  <img src="{{ BASE_PATH }}/assets/images/team/team-01.jpg" alt="">
+                  <figcaption class="our-team">
+                    <div class="details">
+                      <p class="content-white">{{ site.team.member_01.catchphrase }}</p>
+                      <hr class="small-divider border-white">
+                      <div class="social">
+                        <a href="{{ site.team.member_01.linkedin }}">Linkedin</a>
+                      </div>
                     </div>
-                  </div>
-                </figcaption>
-              </figure>
-              <div class="info">
-                <h2>
-                  {{ site.team.member_01.name }}
-                </h2>
-                <p>
-                  {{ site.team.member_01.title }}
-                </p>
-                <hr/>
-                <p class="bio-content">{{ site.team.member_01.background }}</p>
+                  </figcaption>
+                </figure>
+                <div class="info">
+                  <h2>
+                    {{ site.team.member_01.name }}
+                  </h2>
+                  <p>
+                    {{ site.team.member_01.title }}
+                  </p>
+                  <hr/>
+                  <p class="bio-content">{{ site.team.member_01.background }}</p>
+                </div>
               </div>
             </div>
-          </div>
+          {% endif %}
 
           <!-- Member Item Starts -->
           <div class="col-sm-6 col-md-4">
